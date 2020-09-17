@@ -4,24 +4,20 @@ class Admin::CategoriesController < ApplicationController
   end
 
   def new
-    # @product = Product.new
+    @category = Category.new
   end
 
-  # def create
-  #   @product = Product.new(product_params)
+  def create
+    @category = Category.new(category_params)
 
-  #   if @product.save
-  #     redirect_to [:admin, :products], notice: 'Product created!'
-  #   else
-  #     render :new
-  #   end
-  # end
+    if @category.save
+      redirect_to [:admin, :categories], notice: 'Category created!'
+    else
+      render :new
+    end
+  end
 
-  # def destroy
-  #   @product = Product.find params[:id]
-  #   @product.destroy
-  #   redirect_to [:admin, :products], notice: 'Product deleted!'
-  # end
+ 
 
   private
 end
