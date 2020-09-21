@@ -75,10 +75,21 @@ it "Should authenticate even with spaces before/after email" do
       email: "this@gmail",
       password: "secure",
       password_confirmation: "secure")
-    @login = User.authenticate_with_credentials("this@gmail", "secure")  
+    @login = User.authenticate_with_credentials("   this@gmail   ", "secure")  
     expect(@login).not_to be_nil
     
   end
 
+  it "Should authenticate with capitals in email" do
+    @user = User.create(
+      first_name: "John",
+      last_name: "McLellan",
+      email: "this@gmail",
+      password: "secure",
+      password_confirmation: "secure")
+    @login = User.authenticate_with_credentials("thIs@gMail", "secure")  
+    expect(@login).not_to be_nil
+    
+  end
 
 end
