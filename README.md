@@ -25,3 +25,26 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+
+Some screenshots of main features
+
+## Product List
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle1.png?raw=true)
+
+## About
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle_about.png?raw=true)
+
+## Cart
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle_cart.png?raw=true)
+
+## Admin Dashboard
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle_dashboard.png?raw=true)
+
+## Login
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle_login.png?raw=true)
+
+## Sign-Up
+![Menu](https://github.com/UberStash/jungle/blob/master/docs/jungle_signup.png?raw=true)
+
